@@ -1,0 +1,221 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*Display is responsive.*/
+@media screen and (max-width: 900px){
+    body{
+        color:white;
+        width: 100vh;
+    }
+    div#home{
+        position: relative;
+        background-image: url(me.jpeg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        color: aliceblue;
+    }
+    div#photo{
+        display: none;
+    }
+    div#maps{
+        margin-top: 30px;
+    }
+    div#container_about{
+        width: 100vh;
+    }
+}
+
+body{
+    background-color: black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position:sticky;
+    width: 100%;
+}
+
+li{
+    color: black;
+    padding: 10px;
+}
+i#day_night{
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+i:hover{
+    color: gray;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+li a:hover{
+    color: gray;
+    background-color: aliceblue;
+}
+div#home{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+div#name{
+    position:absolute;
+    top: 40%;
+    width: 50%;
+}
+div#photo{
+    width: 50%;
+    position: absolute;
+    top:20%;
+}
+span{
+    color: rgb(250, 163, 1);
+}
+p#paragraph{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 36px;
+}
+p#about_me{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+div#photo{
+    position: absolute;
+    right: 50px;
+    width: 50%;
+    top:20%;
+}
+img{
+    border-end-start-radius:20px;
+    width: 500px;
+    height: 500px;
+}
+div.about{
+    background-color: rgb(226, 239, 239);
+    height: auto;
+}
+/*About The website*/
+h1#Heading{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1#Heading:hover{
+    text-decoration: underline;
+}
+div.about_us{
+    display: flex;
+    border: none;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div#about_us{
+    width: 400px;
+    height: 300px;
+    transition: 0.5s;
+}
+div#about_us{
+    color:rgb(30, 27, 27);
+    cursor: pointer;
+}
+div#about_us:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+div#about_us h2{
+    margin-top: 20px;
+}
+div#about_us h2:hover{
+    text-decoration: underline;
+}
+/*Contact page*/
+div#Contact{
+    background-color: azure;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    max-height: auto;
+}
+div#contact_container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+form{
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+    width: 100px;
+    margin-top: 20px;
+    display: inline-block;
+}
+input#check{
+    margin-left: 110px;
+    display: inline-block;
+}
+#submit{
+    background-color: aliceblue;
+    width: 100px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: 1.5ms;
+    margin-left:38%;
+    margin-top: 20px;
+}
+#submit:hover{
+    background-color: grey;
+    color: white;
+}
+div#maps{
+    border: 1px solid black;
+    padding-top: 20px;
+}
+div#icons_contact{
+    margin-top: 250px;
+}
+#icons_contact i{
+    font-size: 40px;
+}
+a i{
+    text-decoration: none;
+    color: black;
+}
+/*Responsive Design:*/
+@media screen and (min-width:400px) and (max-width:200px){
+    body{
+        width: 100vh;
+    }
+    img{
+        height: 200px;
+        width : 200px;
+        position: absolute;
+        right: 20%;
+    }
+}
